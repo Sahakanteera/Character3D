@@ -1,9 +1,9 @@
 [gd_scene load_steps=15 format=4 uid="uid://dldxhubtiv1n3"]
 
 [ext_resource type="Texture2D" uid="uid://prcwa8pdd8qr" path="res://assets/Walking_0.png" id="1_5tids"]
-[ext_resource type="AnimationLibrary" uid="uid://dwka0podvhgpc" path="res://assets/Locomotion-Library.res" id="2_vm1yl"]
-[ext_resource type="AnimationLibrary" uid="uid://tm3vpuvbe0rc" path="res://assets/Melee-Library--OLD.res" id="3_nkgno"]
-[ext_resource type="AnimationLibrary" uid="uid://bovp1d20bpcv8" path="res://assets/MeleeLib.res" id="4_u5xvk"]
+[ext_resource type="AnimationLibrary" uid="uid://dwka0podvhgpc" path="res://index/assets/Locomotion-Library.res" id="2_vm1yl"]
+[ext_resource type="AnimationLibrary" uid="uid://tm3vpuvbe0rc" path="res://index/assets/Melee-Library--OLD.res" id="3_nkgno"]
+[ext_resource type="AnimationLibrary" uid="uid://bovp1d20bpcv8" path="res://index/assets/MeleeLib.res" id="4_u5xvk"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kr2sg"]
 resource_name = "Material"
