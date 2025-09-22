@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://cct3xo70e624w"]
+
+[ext_resource type="Script" uid="uid://dtagwvgonnwlk" path="res://assets/demo.gd" id="1_amuei"]
+[ext_resource type="PackedScene" uid="uid://dldxhubtiv1n3" path="res://assets/Walking.tscn" id="1_s02n5"]
+[ext_resource type="PackedScene" uid="uid://jj7rstpwd4c2" path="res://assets/Beach.glb" id="3_e6to4"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_amuei")
+
+[node name="Walking" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.87147, 0, 0)
+
+[node name="Walking2" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.53542, 0, 1.60193)
+
+[node name="Walking3" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.91492, 0, 1.03114)
+
+[node name="Walking4" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5457, 0.625732, -2.25574)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.996507, 0.0835039, 0, -0.0835039, 0.996507, 5.54215, 3.53076, 13.6859)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.93363, 0.358238, 0, -0.358238, 0.93363, 0, 13.8456, 9.25963)
+
+[node name="Beach" parent="." instance=ExtResource("3_e6to4")]
+transform = Transform3D(-0.000490394, 0, -1.01744, 0, 1, 0, 0.936562, 0, -0.000532744, 5.36457, -31.4718, -29.9166)
